@@ -1,0 +1,16 @@
+{
+  "slug": "dreis",
+  "label": "Dreis",
+  "hasWeeklySlot": false,
+  "weekdays": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "canGenerate": true,
+  "storiesFolderId": "1DzRJSBXeVEJumEOg831vkn5shrtZUGui"
+}
