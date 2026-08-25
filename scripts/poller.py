@@ -165,7 +165,7 @@ def handle_story(post):
         print(bash("post_story_all.sh", path))
     else:
         print(bash("post_story_video_fb.sh", path))
-        folder_id = os.environ.get("DREIS_STORIES_DRIVE_FOLDER_ID", "1rBwVvcmUZTDMjU3C1WcUR8sbtaqIG8s9")
+        folder_id = os.environ["DREIS_STORIES_DRIVE_FOLDER_ID"]
         video_url = python("resolve_drive_url.py", item["file"], folder_id)
         print(bash("post_story_video_instagram.sh", video_url))
 
