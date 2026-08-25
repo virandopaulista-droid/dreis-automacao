@@ -124,7 +124,7 @@ jobs:
           # "D' reis - Pizzaria" (confirmado 2026-08-25, o padrao antigo
           # nunca tinha realmente rodado pra testar isso: repo privado +
           # RCLONE_CONFIG corrompido escondiam esse bug desde o onboarding).
-          rel_path=$(grep -iE "^Ag.ncia BEEF MTK/Clientes */D.reis - Pizzaria */$" "$HOME/all_dirs.txt" | head -1)
+          rel_path=$(grep -iE "^Ag.ncia BEEF MTK/Clientes */D. reis - Pizzaria */$" "$HOME/all_dirs.txt" | head -1)
           if [ -z "$rel_path" ]; then
             echo "=== nao encontrado, mostrando entradas parecidas ==="
             grep -i "au gratin\|agencia\|ag.ncia" "$HOME/all_dirs.txt" | head -20
