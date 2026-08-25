@@ -9,7 +9,7 @@ still "pending_approval", the poller refuses to post and just warns -- same
 review-before-publish model as Bernardino's/GM Hamburgueria's automation.
 
 Schedule (adjust here if Rob wants different days/times):
-  Every day   18:00 -> 1 story (video, from the "STORIES NOVOS" pool)
+  Every day   19:30 -> 1 story (video, from the "STORIES NOVOS" pool)
 
 client_config.json has hasWeeklySlot:false and weekdays:[0..6] for Dreis --
 the "Mon-Fri 12:00 story / Friday weekly feed" schedule this file had before
@@ -47,7 +47,7 @@ PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}, "hour": 18, "minute": 0},
+    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}, "hour": 19, "minute": 30},
 ]
 
 DRY_RUN = "--live" not in sys.argv[1:]
