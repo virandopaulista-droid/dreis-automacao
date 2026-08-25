@@ -9,10 +9,14 @@ still "pending_approval", the poller refuses to post and just warns -- same
 review-before-publish model as Bernardino's/GM Hamburgueria's automation.
 
 Schedule (adjust here if Rob wants different days/times):
-  Mon-Fri     12:00 -> 1 story (image or video, from Stories Iasmim pool)
-  Friday      11:00 -> weekly feed slot -- EITHER a reel OR a carousel,
-                        whichever generate_week_plan.py picked for that week
-                        (never both in the same week).
+  Every day   18:00 -> 1 story (video, from the "STORIES NOVOS" pool)
+
+client_config.json has hasWeeklySlot:false and weekdays:[0..6] for Dreis --
+the "Mon-Fri 12:00 story / Friday weekly feed" schedule this file had before
+2026-08-25 was copy-pasted from Au Gratin's template at onboarding and never
+actually matched Dreis's real config (confirmed: this poller had literally
+never run once, private repo + broken RCLONE_CONFIG the whole time, so the
+mismatch was never caught).
 
 Catch-up, not a narrow window: fires as soon as "now" is at or past a
 scheduled time (same day), and keeps trying on every later tick until that
@@ -43,8 +47,7 @@ PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4}, "hour": 12, "minute": 0},  # Mon-Fri only, buffet is closed weekends
-    {"slot": "weekly", "weekdays": {4}, "hour": 11, "minute": 0},
+    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}, "hour": 18, "minute": 0},
 ]
 
 DRY_RUN = "--live" not in sys.argv[1:]
