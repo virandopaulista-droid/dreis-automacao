@@ -1,0 +1,84 @@
+{
+  "week_start": "2026-08-24",
+  "status": "pending_approval",
+  "generated_at": "2026-08-25T17:40:54",
+  "posts": [
+    {
+      "date": "2026-08-24",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "96.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "100.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "112.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "102.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "106.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "weekday": "sabado",
+      "slot": "story",
+      "items": [
+        {
+          "file": "107.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "weekday": "domingo",
+      "slot": "story",
+      "items": [
+        {
+          "file": "108.mp4",
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}
