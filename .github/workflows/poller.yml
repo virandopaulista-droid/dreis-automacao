@@ -120,7 +120,11 @@ jobs:
           fi
           sleep 3
           rclone lsf gdrive: -R --dirs-only > "$HOME/all_dirs.txt"
-          rel_path=$(grep -i "^Ag.ncia BEEF MTK/Clientes */Dreis/$" "$HOME/all_dirs.txt" | head -1)
+          # Nao existe pasta "Dreis" -- o cliente real no Drive se chama
+          # "D' reis - Pizzaria" (confirmado 2026-08-25, o padrao antigo
+          # nunca tinha realmente rodado pra testar isso: repo privado +
+          # RCLONE_CONFIG corrompido escondiam esse bug desde o onboarding).
+          rel_path=$(grep -iE "^Ag.ncia BEEF MTK/Clientes */D.reis - Pizzaria */$" "$HOME/all_dirs.txt" | head -1)
           if [ -z "$rel_path" ]; then
             echo "=== nao encontrado, mostrando entradas parecidas ==="
             grep -i "au gratin\|agencia\|ag.ncia" "$HOME/all_dirs.txt" | head -20
@@ -148,35 +152,26 @@ jobs:
       - name: Write .env
         if: steps.gate.outputs.due == 'true'
         run: |
-          # Some subfolder names on the Drive have a trailing space (e.g.
-          # "Vídeos tratados ", "Fotos - Tratadas" does not) -- resolve the
-          # real on-disk name via ls+grep instead of hardcoding it, same
-          # defensive pattern as the "Clientes */Dreis" lookup above.
-          #
-          # Stories agora vem de uma pasta diferente (2026-08-25, pedido do
-          # Rob: "usar somente esses arquivos") -- "D' reis - Pizzaria/
-          # STORIE/STORIES NOVOS", que NAO fica dentro de $DREIS_DIR (pasta
-          # "Dreis" organizada pra automacao), e sim na arvore original do
-          # cliente no Drive. Resolvida separado, direto do all_dirs.txt
-          # (listagem recursiva do Drive inteiro, gerada no passo de mount).
-          stories_rel=$(grep -iE "D.reis - Pizzaria */STORIE */STORIES NOVOS *$" "$HOME/all_dirs.txt" | head -1)
-          if [ -z "$stories_rel" ]; then
-            echo "AVISO: pasta 'STORIES NOVOS' nao encontrada, mostrando entradas parecidas:"
-            grep -i "stories novos\|d.*reis.*pizzaria" "$HOME/all_dirs.txt" | head -20
+          # Stories agora vem de "STORIE/STORIES NOVOS" dentro da pasta do
+          # cliente (2026-08-25, pedido do Rob: "usar somente esses
+          # arquivos"). Sem slot semanal (hasWeeklySlot:false no
+          # client_config.json), entao nao precisa resolver Videos/Fotos
+          # tratados aqui -- handle_feed/handle_reel nunca sao chamados.
+          storie_name=$(ls "$DREIS_DIR" | grep -i "^STORIE *$" | head -1)
+          novos_name=$(ls "$DREIS_DIR/$storie_name" 2>/dev/null | grep -i "^STORIES NOVOS *$" | head -1)
+          if [ -z "$storie_name" ] || [ -z "$novos_name" ]; then
+            echo "AVISO: pasta 'STORIE/STORIES NOVOS' nao encontrada dentro de $DREIS_DIR, mostrando conteudo:"
+            ls "$DREIS_DIR"
             echo "mount failed: pasta de stories novos nao encontrada"
             exit 1
           fi
-          stories_dir="$HOME/gdrive/${stories_rel}"
-          videos_name=$(ls "$DREIS_DIR" | grep -i "^V.deos tratados *$" | head -1)
-          fotos_name=$(ls "$DREIS_DIR" | grep -i "^Fotos - Tratadas *$" | head -1)
+          stories_dir="$DREIS_DIR/$storie_name/$novos_name"
           cat > .env <<EOF
           FB_PAGE_ACCESS_TOKEN="$FB_PAGE_ACCESS_TOKEN"
           FB_PAGE_ID="$FB_PAGE_ID"
           IG_BUSINESS_ID="$IG_BUSINESS_ID"
           DREIS_STORIES_DIR="$stories_dir"
           DREIS_STORIES_DRIVE_FOLDER_ID="1RPkDs-xNvpf7MLYvXYKFcZUfAdUqI3zd"
-          DREIS_VIDEOS_DIR="$DREIS_DIR/$videos_name"
-          DREIS_IMAGES_DIR="$DREIS_DIR/$fotos_name"
           EOF
           cat .env | sed 's/^\(FB_PAGE_ACCESS_TOKEN\)=.*/\1=***/'
 
