@@ -23,7 +23,10 @@
           "file": "100.mp4",
           "type": "video"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-08-25T20:01:05",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: 'DREIS_STORIES_DRIVE_FOLDER_ID'"
     },
     {
       "date": "2026-08-26",
