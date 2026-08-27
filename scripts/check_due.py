@@ -17,6 +17,7 @@ aprovado" GitHub Issue warning still fires as before -- this check must
 never silently swallow that safety net.
 """
 import datetime
+import hashlib
 import json
 import os
 import sys
@@ -25,8 +26,18 @@ PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 
 SCHEDULE = [
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}, "hour": 19, "minute": 30},
+    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}},
 ]
+
+
+def story_time_for_date(date):
+    """Must match poller.py's story_time_for_date exactly (same date ->
+    same hour/minute) or this gate and the real poller can disagree about
+    whether today's slot is due yet."""
+    h = int(hashlib.md5(date.isoformat().encode()).hexdigest(), 16)
+    hour = 19 + (h % 3)
+    minute = (h // 3) % 60
+    return hour, minute
 
 
 def week_monday(date):
@@ -46,7 +57,8 @@ def any_due(now):
     for entry in SCHEDULE:
         if now.weekday() not in entry["weekdays"]:
             continue
-        scheduled = now.replace(hour=entry["hour"], minute=entry["minute"], second=0, microsecond=0)
+        hour, minute = story_time_for_date(now.date())
+        scheduled = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
         if now < scheduled:
             continue
         plan = load_plan(week_monday(now.date()))
