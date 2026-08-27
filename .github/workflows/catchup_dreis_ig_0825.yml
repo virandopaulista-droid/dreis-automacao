@@ -1,0 +1,38 @@
+name: Catchup IG Dreis 08-25 (temp)
+
+on:
+  workflow_dispatch:
+
+env:
+  RCLONE_CONFIG_SECRET: ${{ secrets.RCLONE_CONFIG }}
+  FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+  FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+  IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
+  DREIS_STORIES_DRIVE_FOLDER_ID: "1RPkDs-xNvpf7MLYvXYKFcZUfAdUqI3zd"
+
+jobs:
+  catchup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install rclone
+        run: curl https://rclone.org/install.sh | sudo bash
+      - name: Configure rclone
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s' "$RCLONE_CONFIG_SECRET" > ~/.config/rclone/rclone.conf
+      - name: Write .env
+        run: |
+          cat > .env <<EOF
+          FB_PAGE_ACCESS_TOKEN="$FB_PAGE_ACCESS_TOKEN"
+          FB_PAGE_ID="$FB_PAGE_ID"
+          IG_BUSINESS_ID="$IG_BUSINESS_ID"
+          EOF
+      - name: Resolve URL and post to Instagram
+        run: |
+          video_url=$(python3 scripts/resolve_drive_url.py "100.mp4" "$DREIS_STORIES_DRIVE_FOLDER_ID")
+          echo "URL: $video_url"
+          bash scripts/post_story_video_instagram.sh "$video_url"
