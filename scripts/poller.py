@@ -9,7 +9,13 @@ still "pending_approval", the poller refuses to post and just warns -- same
 review-before-publish model as Bernardino's/GM Hamburgueria's automation.
 
 Schedule (adjust here if Rob wants different days/times):
-  Every day   19:30 -> 1 story (video, from the "STORIES NOVOS" pool)
+  Every day, sometime between 19:00-21:59 -> 1 story (video, from the
+  "STORIES NOVOS" pool). The exact minute varies day to day (deterministic
+  per-date hash, see story_time_for_date) instead of a fixed time every
+  day, per Rob's request 2026-08-27 ("programe pra sair de noite, 19 20 e
+  21") -- looks less robotic than posting at the exact same minute daily.
+  check_due.py must compute the SAME time for the SAME date (copy kept in
+  sync there) so the cheap pre-check and this file agree on what's due.
 
 client_config.json has hasWeeklySlot:false and weekdays:[0..6] for Dreis --
 the "Mon-Fri 12:00 story / Friday weekly feed" schedule this file had before
@@ -36,6 +42,7 @@ Defaults to --dry-run (prints what it would do, does NOT call Facebook).
 Pass --live to actually publish.
 """
 import datetime
+import hashlib
 import json
 import os
 import subprocess
@@ -47,8 +54,20 @@ PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}, "hour": 19, "minute": 30},
+    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}},
 ]
+
+
+def story_time_for_date(date):
+    """Deterministic but varied posting time within 19:00-21:59 -- same
+    date always maps to the same hour/minute (so check_due.py's gate and
+    this file's own match always agree), but different dates land at
+    different times so it doesn't look like a robot posting at the exact
+    same minute every single day."""
+    h = int(hashlib.md5(date.isoformat().encode()).hexdigest(), 16)
+    hour = 19 + (h % 3)
+    minute = (h // 3) % 60
+    return hour, minute
 
 DRY_RUN = "--live" not in sys.argv[1:]
 
@@ -285,7 +304,8 @@ def main():
     for entry in SCHEDULE:
         if now.weekday() not in entry["weekdays"]:
             continue
-        scheduled = now.replace(hour=entry["hour"], minute=entry["minute"], second=0, microsecond=0)
+        hour, minute = story_time_for_date(now.date())
+        scheduled = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
         if now < scheduled:
             continue
 
