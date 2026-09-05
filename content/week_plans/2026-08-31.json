@@ -77,7 +77,9 @@
           "file": "99.mp4",
           "type": "video"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-09-05T20:27:35"
     },
     {
       "date": "2026-09-06",
