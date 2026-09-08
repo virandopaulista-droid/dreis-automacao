@@ -1,0 +1,95 @@
+{
+  "week_start": "2026-09-14",
+  "status": "pending_approval",
+  "generated_at": "2026-09-08T18:38:47",
+  "posts": [
+    {
+      "date": "2026-09-14",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "16.mp4",
+          "type": "video",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "11.jpg",
+          "type": "image",
+          "folder": "SETEMBRO"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "17.mp4",
+          "type": "video",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "7.jpg",
+          "type": "image",
+          "folder": "SETEMBRO"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "13.mp4",
+          "type": "video",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "weekday": "sabado",
+      "slot": "story",
+      "items": [
+        {
+          "file": "9.jpg",
+          "type": "image",
+          "folder": "SETEMBRO"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "weekday": "domingo",
+      "slot": "story",
+      "items": [
+        {
+          "file": "20.mp4",
+          "type": "video",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    }
+  ]
+}
