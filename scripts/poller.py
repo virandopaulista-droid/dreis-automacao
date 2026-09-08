@@ -109,7 +109,11 @@ def resolve_caption_file(post):
 
 def path_for_story(item):
     base = os.environ["DREIS_STORIES_DIR"]
-    return os.path.join(base, item["file"])
+    # Maioria dos stories fica solta na raiz de "STORIES NOVOS", mas Rob as
+    # vezes sobe material novo dentro de uma subpasta (ex: "SETEMBRO/",
+    # 2026-09-08) -- se o item tiver "folder", desce ate ela primeiro.
+    folder = item.get("folder")
+    return os.path.join(base, folder, item["file"]) if folder else os.path.join(base, item["file"])
 
 
 def path_for_reel(item):
@@ -187,7 +191,11 @@ def handle_story(post):
         print(bash("post_story_all.sh", path))
     else:
         print(bash("post_story_video_fb.sh", path))
-        folder_id = os.environ["DREIS_STORIES_DRIVE_FOLDER_ID"]
+        # resolve_drive_url.py so enxerga arquivos DIRETO dentro do
+        # folder_id passado (nao e recursivo) -- video vindo de uma
+        # subpasta (ex: "SETEMBRO/") precisa do drive_folder_id daquela
+        # subpasta especifica, nao da raiz de "STORIES NOVOS".
+        folder_id = item.get("drive_folder_id") or os.environ["DREIS_STORIES_DRIVE_FOLDER_ID"]
         video_url = python("resolve_drive_url.py", item["file"], folder_id)
         print(bash("post_story_video_instagram.sh", video_url))
 
