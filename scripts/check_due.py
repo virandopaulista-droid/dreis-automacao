@@ -26,7 +26,7 @@ PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 
 SCHEDULE = [
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}},
+    {"slot": "story", "weekdays": {0, 2, 3, 4, 5, 6}},  # sem terca (1) -- fechado
 ]
 
 
