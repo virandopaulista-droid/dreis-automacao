@@ -70,8 +70,8 @@
     {
       "file": "104.mp4",
       "type": "video",
-      "used": true,
-      "used_at": "2026-09-08T15:16:11"
+      "used": false,
+      "used_at": null
     },
     {
       "file": "105.mp4",
