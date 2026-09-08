@@ -9,20 +9,26 @@ still "pending_approval", the poller refuses to post and just warns -- same
 review-before-publish model as Bernardino's/GM Hamburgueria's automation.
 
 Schedule (adjust here if Rob wants different days/times):
-  Every day, sometime between 19:00-21:59 -> 1 story (video, from the
-  "STORIES NOVOS" pool). The exact minute varies day to day (deterministic
-  per-date hash, see story_time_for_date) instead of a fixed time every
-  day, per Rob's request 2026-08-27 ("programe pra sair de noite, 19 20 e
-  21") -- looks less robotic than posting at the exact same minute daily.
-  check_due.py must compute the SAME time for the SAME date (copy kept in
-  sync there) so the cheap pre-check and this file agree on what's due.
+  Quarta a segunda, sometime between 19:00-21:59 -> 1 story (video, from the
+  "STORIES NOVOS" pool). Sem terca -- Dreis fecha as tercas-feiras a partir
+  de 2026-09-08 (pedido do Rob), entao terca nao entra no SCHEDULE nem no
+  weekdays do client_config.json (sem isso, generate_week_plan/o painel
+  continuaria sorteando um story pra um dia em que o restaurante nao abre).
+  The exact minute varies day to day (deterministic per-date hash, see
+  story_time_for_date) instead of a fixed time every day, per Rob's request
+  2026-08-27 ("programe pra sair de noite, 19 20 e 21") -- looks less
+  robotic than posting at the exact same minute daily. check_due.py must
+  compute the SAME time for the SAME date (copy kept in sync there) so the
+  cheap pre-check and this file agree on what's due.
 
-client_config.json has hasWeeklySlot:false and weekdays:[0..6] for Dreis --
-the "Mon-Fri 12:00 story / Friday weekly feed" schedule this file had before
-2026-08-25 was copy-pasted from Au Gratin's template at onboarding and never
-actually matched Dreis's real config (confirmed: this poller had literally
-never run once, private repo + broken RCLONE_CONFIG the whole time, so the
-mismatch was never caught).
+client_config.json has hasWeeklySlot:false and weekdays:[0,2,3,4,5,6] for
+Dreis (segunda + quarta..domingo, sem terca). Before 2026-08-25 this file had
+a stale "Mon-Fri 12:00 story / Friday weekly feed" schedule copy-pasted from
+Au Gratin's template at onboarding and never actually matched Dreis's real
+config (confirmed: this poller had literally never run once, private repo +
+broken RCLONE_CONFIG the whole time, so the mismatch was never caught) --
+keep this file's SCHEDULE and client_config.json's weekdays in sync when
+either changes.
 
 Catch-up, not a narrow window: fires as soon as "now" is at or past a
 scheduled time (same day), and keeps trying on every later tick until that
@@ -54,7 +60,7 @@ PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}},
+    {"slot": "story", "weekdays": {0, 2, 3, 4, 5, 6}},  # sem terca (1) -- fechado
 ]
 
 
