@@ -151,8 +151,8 @@
       "file": "3.jpg",
       "type": "image",
       "folder": "SETEMBRO",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-12T04:20:52"
     },
     {
       "file": "4.jpg",
@@ -165,8 +165,8 @@
       "file": "5.jpg",
       "type": "image",
       "folder": "SETEMBRO",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-12T04:20:52"
     },
     {
       "file": "6.jpg",
@@ -239,8 +239,8 @@
       "type": "video",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-12T04:20:52"
     },
     {
       "file": "16.mp4",
@@ -295,8 +295,8 @@
       "type": "video",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-12T04:20:52"
     },
     {
       "file": "23.mp4",
@@ -311,16 +311,16 @@
       "type": "video",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-12T04:20:52"
     },
     {
       "file": "25.mp4",
       "type": "video",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-12T04:20:52"
     }
   ]
 }
