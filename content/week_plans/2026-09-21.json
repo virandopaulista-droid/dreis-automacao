@@ -1,0 +1,83 @@
+{
+  "week_start": "2026-09-21",
+  "status": "pending_approval",
+  "generated_at": "2026-09-12T04:20:53",
+  "posts": [
+    {
+      "date": "2026-09-21",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "5.jpg",
+          "type": "image",
+          "folder": "SETEMBRO"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "3.jpg",
+          "type": "image",
+          "folder": "SETEMBRO"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "25.mp4",
+          "type": "video",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "15.mp4",
+          "type": "video",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "weekday": "sabado",
+      "slot": "story",
+      "items": [
+        {
+          "file": "24.mp4",
+          "type": "video",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "weekday": "domingo",
+      "slot": "story",
+      "items": [
+        {
+          "file": "22.mp4",
+          "type": "video",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    }
+  ]
+}
