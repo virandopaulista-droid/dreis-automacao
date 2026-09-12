@@ -200,8 +200,8 @@
       "file": "10.jpg",
       "type": "image",
       "folder": "SETEMBRO",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-12T04:21:05"
     },
     {
       "file": "11.jpg",
@@ -311,8 +311,8 @@
       "type": "video",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
-      "used": true,
-      "used_at": "2026-09-12T04:20:52"
+      "used": false,
+      "used_at": null
     },
     {
       "file": "25.mp4",
