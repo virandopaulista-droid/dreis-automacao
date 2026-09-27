@@ -71,7 +71,10 @@
           "file": "10.jpg",
           "type": "image"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-09-26T21:03:15",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): ['bash', '/home/runner/work/dreis-automacao/dreis-automacao/scripts/post_story_all.sh', '/home/runner/gdrive/Agência BEEF MTK/Clientes /D’ reis - Pizzaria /STORIE/STORIES NOVOS/10.jpg']"
     },
     {
       "date": "2026-09-27",
