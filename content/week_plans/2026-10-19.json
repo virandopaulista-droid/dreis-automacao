@@ -1,0 +1,85 @@
+{
+  "week_start": "2026-10-19",
+  "status": "pending_approval",
+  "generated_at": "2026-09-30T04:23:46",
+  "posts": [
+    {
+      "date": "2026-10-19",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "1.png",
+          "type": "image",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "14.png",
+          "type": "image",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "25.png",
+          "type": "image",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "24.png",
+          "type": "image",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "weekday": "sabado",
+      "slot": "story",
+      "items": [
+        {
+          "file": "27.png",
+          "type": "image",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "weekday": "domingo",
+      "slot": "story",
+      "items": [
+        {
+          "file": "9.png",
+          "type": "image",
+          "folder": "SETEMBRO",
+          "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+        }
+      ]
+    }
+  ]
+}
