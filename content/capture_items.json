@@ -68,8 +68,8 @@
       "date": "2026-10-01",
       "label": "Clientes descrevem o endereço",
       "link": "https://www.instagram.com/reel/DdkIsLJJCxz/?stkn=eHh5ZTViZ2ZkaXhh",
-      "approved": false,
-      "approved_at": null,
+      "approved": true,
+      "approved_at": "2026-10-01T16:26:39.449Z",
       "created_at": "2026-10-01T04:23:46.746Z"
     },
     {
