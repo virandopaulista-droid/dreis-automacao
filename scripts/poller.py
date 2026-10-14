@@ -65,15 +65,11 @@ SCHEDULE = [
 
 
 def story_time_for_date(date):
-    """Deterministic but varied posting time within 19:00-21:59 -- same
-    date always maps to the same hour/minute (so check_due.py's gate and
-    this file's own match always agree), but different dates land at
-    different times so it doesn't look like a robot posting at the exact
-    same minute every single day."""
-    h = int(hashlib.md5(date.isoformat().encode()).hexdigest(), 16)
-    hour = 19 + (h % 3)
-    minute = (h // 3) % 60
-    return hour, minute
+    """Horario FIXO do story do D'Reis: 20:00 (pedido do Rob, 14/10/2026).
+    Antes era sorteado entre 19:00 e 21:59 por data, e com o atraso do
+    GitHub os stories saiam entre 21h15 e 23h47."""
+    return 20, 0
+
 
 DRY_RUN = "--live" not in sys.argv[1:]
 

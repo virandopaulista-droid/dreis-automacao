@@ -31,13 +31,11 @@ SCHEDULE = [
 
 
 def story_time_for_date(date):
-    """Must match poller.py's story_time_for_date exactly (same date ->
-    same hour/minute) or this gate and the real poller can disagree about
-    whether today's slot is due yet."""
-    h = int(hashlib.md5(date.isoformat().encode()).hexdigest(), 16)
-    hour = 19 + (h % 3)
-    minute = (h // 3) % 60
-    return hour, minute
+    """Horario FIXO do story do D'Reis: 20:00 (pedido do Rob, 14/10/2026).
+    Antes era sorteado entre 19:00 e 21:59 por data, e com o atraso do
+    GitHub os stories saiam entre 21h15 e 23h47.
+    Precisa ser igual ao de poller.py."""
+    return 20, 0
 
 
 def week_monday(date):
