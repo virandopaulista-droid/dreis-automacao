@@ -357,9 +357,8 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-12T04:21:30",
-      "disabled": true,
-      "disabled_at": "2026-10-20T03:33:49.387Z",
-      "auto_disabled": true
+      "disabled": false,
+      "disabled_at": null
     },
     {
       "file": "25.mp4",
@@ -368,9 +367,8 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-12T04:20:52",
-      "disabled": true,
-      "disabled_at": "2026-10-20T03:33:49.387Z",
-      "auto_disabled": true
+      "disabled": false,
+      "disabled_at": null
     },
     {
       "file": "1.png",
@@ -1860,6 +1858,114 @@
       "used": false,
       "used_at": null,
       "added_at": "2026-10-20T03:33:40.204Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "1.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "2.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "26.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "27.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "28.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "29.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "30.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "31.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "32.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "33.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "34.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
+      "folder": "SETEMBRO",
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+    },
+    {
+      "file": "35.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null,
+      "added_at": "2026-10-20T03:35:06.962Z",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
     }
