@@ -139,7 +139,10 @@
       "folder": "SETEMBRO",
       "used": false,
       "used_at": null,
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "2.jpg",
@@ -147,7 +150,10 @@
       "folder": "SETEMBRO",
       "used": false,
       "used_at": null,
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "3.jpg",
@@ -155,7 +161,10 @@
       "folder": "SETEMBRO",
       "used": true,
       "used_at": "2026-09-12T04:20:52",
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "4.jpg",
@@ -163,7 +172,10 @@
       "folder": "SETEMBRO",
       "used": false,
       "used_at": null,
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "5.jpg",
@@ -171,7 +183,10 @@
       "folder": "SETEMBRO",
       "used": true,
       "used_at": "2026-09-12T04:20:52",
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "6.jpg",
@@ -179,7 +194,10 @@
       "folder": "SETEMBRO",
       "used": false,
       "used_at": null,
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "7.jpg",
@@ -187,7 +205,10 @@
       "folder": "SETEMBRO",
       "used": true,
       "used_at": "2026-09-08T18:38:47",
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "8.jpg",
@@ -195,7 +216,10 @@
       "folder": "SETEMBRO",
       "used": false,
       "used_at": null,
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "9.jpg",
@@ -203,7 +227,10 @@
       "folder": "SETEMBRO",
       "used": true,
       "used_at": "2026-09-08T18:38:47",
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "10.jpg",
@@ -211,7 +238,10 @@
       "folder": "SETEMBRO",
       "used": true,
       "used_at": "2026-09-12T04:21:05",
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "11.jpg",
@@ -219,7 +249,10 @@
       "folder": "SETEMBRO",
       "used": true,
       "used_at": "2026-09-08T18:38:47",
-      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
+      "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "12.mp4",
@@ -323,7 +356,10 @@
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
-      "used_at": "2026-09-12T04:21:30"
+      "used_at": "2026-09-12T04:21:30",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "25.mp4",
@@ -331,7 +367,10 @@
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
-      "used_at": "2026-09-12T04:20:52"
+      "used_at": "2026-09-12T04:20:52",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "1.png",
@@ -340,7 +379,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:46",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "10.png",
@@ -349,7 +391,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:12",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "11.png",
@@ -358,7 +403,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:12",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "12.png",
@@ -367,7 +415,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "13.png",
@@ -376,7 +427,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "14.png",
@@ -385,7 +439,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:46",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "15.png",
@@ -394,7 +451,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "16.png",
@@ -403,7 +463,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "17.png",
@@ -412,7 +475,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "18.png",
@@ -421,7 +487,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:33",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "19.png",
@@ -430,7 +499,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "2.png",
@@ -439,7 +511,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "20.png",
@@ -448,7 +523,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "21.png",
@@ -457,7 +535,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:33",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "22.png",
@@ -466,7 +547,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "23.png",
@@ -475,7 +559,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "24.png",
@@ -484,7 +571,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:46",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "25.png",
@@ -493,7 +583,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:46",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "26.png",
@@ -502,7 +595,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "27.png",
@@ -511,7 +607,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:46",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "28.png",
@@ -520,7 +619,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:33",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "29.png",
@@ -529,7 +631,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "3.png",
@@ -538,7 +643,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:33",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "30.png",
@@ -547,7 +655,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "31.png",
@@ -556,7 +667,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "32.png",
@@ -565,7 +679,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:12",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "33.png",
@@ -574,7 +691,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "34.png",
@@ -583,7 +703,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:12",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "35.png",
@@ -592,7 +715,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:12",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "4.png",
@@ -601,7 +727,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:33",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "5.png",
@@ -610,7 +739,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "6.png",
@@ -619,7 +751,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:33",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "7.png",
@@ -628,7 +763,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": false,
       "used_at": null,
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "8.png",
@@ -637,7 +775,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:12",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "9.png",
@@ -646,7 +787,10 @@
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe",
       "used": true,
       "used_at": "2026-09-30T04:23:46",
-      "added_at": "2026-09-15T02:33:37.033877"
+      "added_at": "2026-09-15T02:33:37.033877",
+      "disabled": true,
+      "disabled_at": "2026-10-20T03:33:49.387Z",
+      "auto_disabled": true
     },
     {
       "file": "10.mp4",
