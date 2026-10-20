@@ -1270,8 +1270,8 @@
     {
       "file": "4.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-20T03:38:03",
       "added_at": "2026-10-20T03:33:40.204Z",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
@@ -1576,8 +1576,8 @@
     {
       "file": "70.jpg",
       "type": "image",
-      "used": true,
-      "used_at": "2026-10-20T03:37:58",
+      "used": false,
+      "used_at": null,
       "added_at": "2026-10-20T03:33:40.204Z",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
