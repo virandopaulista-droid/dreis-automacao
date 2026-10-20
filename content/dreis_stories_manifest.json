@@ -1009,8 +1009,8 @@
     {
       "file": "125.jpg",
       "type": "image",
-      "used": true,
-      "used_at": "2026-10-20T03:35:55",
+      "used": false,
+      "used_at": null,
       "added_at": "2026-10-20T03:33:40.204Z",
       "folder": "SETEMBRO",
       "drive_folder_id": "1JirS6t_EtHtlyqStlbJ-fDH8HSeOEuJe"
