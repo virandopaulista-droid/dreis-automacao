@@ -1,11 +1,144 @@
 {
   "month": "2026-10",
-  "source": "canva",
-  "updatedAt": "2026-11-01T20:50:00Z",
+  "source": "cardapioweb",
+  "updatedAt": "2026-11-01T21:30:00Z",
   "sales": {
     "revenue": 156587.06,
     "orders": 2332,
-    "avgTicket": 67.15
+    "avgTicket": 67.15,
+    "productsTotal": 162569.34,
+    "deliveryFees": 16189.56,
+    "additionalFees": 2414.05,
+    "discounts": 24585.89,
+    "channels": [
+      {
+        "name": "99Food",
+        "revenue": 45973.38,
+        "orders": 816
+      },
+      {
+        "name": "Site",
+        "revenue": 43686.7,
+        "orders": 560
+      },
+      {
+        "name": "Keeta",
+        "revenue": 37291.69,
+        "orders": 528
+      },
+      {
+        "name": "Portal",
+        "revenue": 29019.45,
+        "orders": 418
+      },
+      {
+        "name": "iFood",
+        "revenue": 615.84,
+        "orders": 10
+      }
+    ],
+    "types": [
+      {
+        "name": "Delivery",
+        "revenue": 143393.63,
+        "orders": 2110
+      },
+      {
+        "name": "Retirada",
+        "revenue": 13193.43,
+        "orders": 222
+      }
+    ],
+    "payments": [
+      {
+        "name": "99Food",
+        "revenue": 34137.72
+      },
+      {
+        "name": "Cartão de débito",
+        "revenue": 32986.89
+      },
+      {
+        "name": "Keeta",
+        "revenue": 27931.37
+      },
+      {
+        "name": "Pix",
+        "revenue": 16409.36
+      },
+      {
+        "name": "Cartão de crédito",
+        "revenue": 13189.91
+      },
+      {
+        "name": "Dinheiro",
+        "revenue": 12115.94
+      },
+      {
+        "name": "99Food Voucher",
+        "revenue": 9867.3
+      },
+      {
+        "name": "Keeta Voucher",
+        "revenue": 9360.32
+      },
+      {
+        "name": "iFood",
+        "revenue": 588.25
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Parque Novo Santo Amaro",
+        "revenue": 18347.47,
+        "orders": 264
+      },
+      {
+        "name": "Chacara Santa Maria",
+        "revenue": 9686.7,
+        "orders": 143
+      },
+      {
+        "name": "Recreio Primavera",
+        "revenue": 9659.71,
+        "orders": 131
+      },
+      {
+        "name": "Parque Independencia",
+        "revenue": 8936.8,
+        "orders": 112
+      },
+      {
+        "name": "Jardim Turquesa",
+        "revenue": 7280.53,
+        "orders": 105
+      },
+      {
+        "name": "Jardim Guaruja",
+        "revenue": 7257.27,
+        "orders": 118
+      },
+      {
+        "name": "Chacara Nani",
+        "revenue": 6953.01,
+        "orders": 97
+      },
+      {
+        "name": "Parque Do Lago",
+        "revenue": 4868.29,
+        "orders": 72
+      },
+      {
+        "name": "Cidade Ipava",
+        "revenue": 4238.53,
+        "orders": 68
+      },
+      {
+        "name": "Jardim Idemori",
+        "revenue": 3424.53,
+        "orders": 46
+      }
+    ]
   },
   "ads": {
     "spend": 741.05,
